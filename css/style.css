@@ -59,4 +59,13 @@ nav a{
     max-width: 12rem;
     margin: auto;
 }
+.form-container input {
+    width: 100%;
+    padding: 12px; 
+    border: solid1px black 
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+}   
+
 
