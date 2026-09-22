@@ -64,20 +64,25 @@
             <p><strong>Address:</strong>Iyunga, Mbeya, Tanzania</p>
             <p><strong>Phone:</strong>+255 000 000 000</p>
             <p><strong>Email:</strong>inf@iyungasecondary.ac.tz</p>
-
-            <form action="#"method="post">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5"
-    required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
+            
+     <form>
+            <div class="form-container">
+            <h2>Create Account</h2>
+            <p>Register your account below</p>
+            <form id="registrationForm">  
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+         <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
     </section>
    </main>
 
