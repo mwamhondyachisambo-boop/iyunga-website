@@ -3,7 +3,7 @@ h1{
     text-align: center;
     padding: 20px;
     font-size: 4rem;
-    background-color: aqua;
+    background-color: lightblue;
 }
 .main-nav ul{
     list-style: none;
@@ -15,19 +15,18 @@ h1{
     
 }
 .site-header{
-    color: red;
+    color: black;
     text-align: center;
-    background-color: green;
-    font-size: 3rem;
+    background-color: lightblue;
+    font-size: 5rem;
 }
 p{
     text-align: center;
-    background-color: darkcyan;
     font-size: 32px;
 
 }
 h2{
-    color:palevioletred;
+    color:black;
     text-align: center;
     font-size: 2rem;
 }
@@ -45,13 +44,12 @@ nav a{
     background-color: khaki;
 }
 .site-footer{
-    background-color: brown;
+    background-color: khaki;
     color: white;
     text-align: center;
     padding: 20px;
 }
 .hero{
-    background-color: yellowgreen;
     text-align: center;
     padding: 30px;
     text-decoration: none;
